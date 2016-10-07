@@ -22,11 +22,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="solid-homework" />
         <module name="tractor" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="HW17GoodCode" target="1.5" />
+      <module name="solid-homework" target="1.5" />
       <module name="tractor" target="1.5" />
     </bytecodeTargetLevel>
   </component>
